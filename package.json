@@ -1,0 +1,26 @@
+{
+	"name": "stylelint-config-globex",
+	"description": "CSS Code Standards for Globex - Stylelint Shareable Config",
+	"license": "MIT",
+	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
+	"homepage": "https://github.com/GlobexDesignsInc/stylelint-config-globex",
+	"bugs": {
+		"url": "https://github.com/GlobexDesignsInc/stylelint-config-globex/issues"
+	},
+	"version": "1.0.0",
+	"main": "index.js",
+	"bin": {
+		"stylelint-globex": "./bin/stylelint-globex.js"
+	},
+	"scripts": {
+		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
+		"test": "yarn packagelint"
+	},
+	"dependencies": {
+		"stylelint": "10.1.0",
+		"stylelint-order": "3.0.0"
+	},
+	"devDependencies": {
+		"prettier-package-json": "2.1.0"
+	}
+}
