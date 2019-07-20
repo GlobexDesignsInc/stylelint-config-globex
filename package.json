@@ -7,7 +7,7 @@
 	"bugs": {
 		"url": "https://github.com/GlobexDesignsInc/stylelint-config-globex/issues"
 	},
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"bin": {
 		"stylelint-globex": "./bin/stylelint-globex.js"
@@ -18,7 +18,7 @@
 	},
 	"dependencies": {
 		"stylelint": "10.1.0",
-		"stylelint-order": "3.0.0"
+		"stylelint-order": "3.0.1"
 	},
 	"devDependencies": {
 		"prettier-package-json": "2.1.0"
