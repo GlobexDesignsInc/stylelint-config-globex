@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const fs = require('fs')
+const fs = require('fs');
 const path = require('path');
 
 const binPath = path.join('node_modules', 'stylelint', 'bin', 'stylelint.js');
@@ -8,10 +8,10 @@ const binPath = path.join('node_modules', 'stylelint', 'bin', 'stylelint.js');
 const fileExists = function (path) {
 	let exists;
 	try {
-	    fs.accessSync(path, fs.F_OK);
-	    exists = true;
+		fs.accessSync(path, fs.F_OK);
+		exists = true;
 	} catch (e) {
-	    exists = false;
+		exists = false;
 	}
 	return exists;
 };

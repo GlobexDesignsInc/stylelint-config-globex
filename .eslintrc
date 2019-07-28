@@ -1,0 +1,9 @@
+{
+  "extends": "eslint-config-globex",
+  "rules": {
+    "flowtype/require-parameter-type": "off",
+    "flowtype/require-return-type": "off",
+    "flowtype/require-valid-file-annotation": "off",
+    "import/no-commonjs": "off"
+  }
+}

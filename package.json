@@ -7,13 +7,16 @@
 	"bugs": {
 		"url": "https://github.com/GlobexDesignsInc/stylelint-config-globex/issues"
 	},
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"main": "index.js",
 	"bin": {
 		"stylelint-globex": "./bin/stylelint-globex.js"
 	},
 	"scripts": {
+		"eslint": "eslint-globex .",
+		"lint": "yarn eslint && yarn packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
+		"release": "yarn test && standard-version && git push --follow-tags origin master && npm publish",
 		"test": "yarn packagelint"
 	},
 	"dependencies": {
@@ -21,6 +24,8 @@
 		"stylelint-order": "3.0.1"
 	},
 	"devDependencies": {
-		"prettier-package-json": "2.1.0"
+		"eslint-config-globex": "2.1.1",
+		"prettier-package-json": "2.1.0",
+		"standard-version": "6.0.1"
 	}
 }
