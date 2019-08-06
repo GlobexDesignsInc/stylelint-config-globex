@@ -24,8 +24,8 @@
 		"stylelint-order": "3.0.1"
 	},
 	"devDependencies": {
-		"eslint-config-globex": "2.1.1",
+		"eslint-config-globex": "2.1.2",
 		"prettier-package-json": "2.1.0",
-		"standard-version": "6.0.1"
+		"standard-version": "7.0.0"
 	}
 }
