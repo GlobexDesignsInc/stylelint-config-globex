@@ -17,14 +17,14 @@
 		"lint": "yarn eslint && yarn packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
 		"release": "yarn test && standard-version && git push --follow-tags origin master && npm publish",
-		"test": "yarn packagelint"
+		"test": "yarn eslint && yarn packagelint"
 	},
 	"dependencies": {
 		"stylelint": "10.1.0",
 		"stylelint-order": "3.0.1"
 	},
 	"devDependencies": {
-		"eslint-config-globex": "2.3.0",
+		"eslint-config-globex": "2.4.1",
 		"prettier-package-json": "2.1.0",
 		"standard-version": "7.0.0"
 	}
