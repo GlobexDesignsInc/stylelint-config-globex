@@ -21,7 +21,7 @@
 	},
 	"dependencies": {
 		"stylelint": "10.1.0",
-		"stylelint-order": "3.0.1"
+		"stylelint-order": "3.1.0"
 	},
 	"devDependencies": {
 		"eslint-config-globex": "2.4.1",
