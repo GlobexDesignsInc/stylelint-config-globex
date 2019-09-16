@@ -143,7 +143,6 @@ module.exports = {
 		'string-no-newline': true,
 		'string-quotes': 'double',
 		'time-min-milliseconds': 100,
-		'unicode-bom': 'always',
 		'unit-blacklist': ['em', 'rem'],
 		'unit-case': 'lower',
 		'unit-no-unknown': true,
@@ -207,6 +206,8 @@ module.exports = {
 		'selector-pseudo-class-whitelist': null,
 		'selector-pseudo-element-blacklist': null,
 		'selector-pseudo-element-whitelist': null,
+		// This rule seems broken
+		'unicode-bom': 'never',
 		'unit-whitelist': null,
 	},
 };
