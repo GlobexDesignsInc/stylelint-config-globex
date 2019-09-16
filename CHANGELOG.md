@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v1.1.1...v1.1.2) (2019-09-16)
+
+
+### Bug Fixes
+
+* Disable unicode-bom rule. It seems to be broken. ([00c18d5](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/00c18d5))
+
 ### [1.1.1](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v1.1.0...v1.1.1) (2019-09-16)
 
 
