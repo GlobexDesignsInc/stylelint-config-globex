@@ -143,6 +143,7 @@ module.exports = {
 		'string-no-newline': true,
 		'string-quotes': 'double',
 		'time-min-milliseconds': 100,
+		'unicode-bom': true,
 		'unit-blacklist': ['em', 'rem'],
 		'unit-case': 'lower',
 		'unit-no-unknown': true,
