@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v1.1.2...v1.1.3) (2020-01-01)
+
+
+### Bug Fixes
+
+* **package:** update stylelint to version 11.1.1 ([a04b637](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/a04b6373e2d1462a4c661a43a1facf46a97796d6)), closes [#8](https://github.com/GlobexDesignsInc/stylelint-config-globex/issues/8)
+* **package:** update stylelint-order to version 3.1.1 ([20a3a95](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/20a3a952945b96c9cbd52014c9116a3b34f9ac50))
+
 ### [1.1.2](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v1.1.1...v1.1.2) (2019-09-16)
 
 
