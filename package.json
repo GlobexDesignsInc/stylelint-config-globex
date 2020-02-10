@@ -20,7 +20,7 @@
 		"test": "yarn eslint && yarn packagelint"
 	},
 	"dependencies": {
-		"stylelint": "13.0.0",
+		"stylelint": "13.1.0",
 		"stylelint-order": "4.0.0"
 	},
 	"devDependencies": {
