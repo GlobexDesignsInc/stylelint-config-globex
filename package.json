@@ -20,7 +20,7 @@
 		"test": "yarn lint"
 	},
 	"dependencies": {
-		"stylelint": "13.4.1",
+		"stylelint": "13.5.0",
 		"stylelint-order": "4.0.0"
 	},
 	"devDependencies": {
