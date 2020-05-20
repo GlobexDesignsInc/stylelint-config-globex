@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v1.2.0...v1.3.0) (2020-05-20)
+
+
+### Features
+
+* upgrade to stylelint 13.5.0 and add new rules ([b6a8fd6](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/b6a8fd66ced89a6cb66b7ba646ce8a438de6907e))
+
 ## [1.2.0](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v1.1.3...v1.2.0) (2020-05-08)
 
 
