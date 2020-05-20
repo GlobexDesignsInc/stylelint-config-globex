@@ -5,6 +5,7 @@ module.exports = {
 	rules: {
 		// ERRORS
 
+		'alpha-value-notation': 'number',
 		'at-rule-empty-line-before': ['always', {
 			ignore: ['after-comment', 'inside-block'],
 		}],
@@ -21,6 +22,7 @@ module.exports = {
 		'block-opening-brace-space-after': 'always-single-line',
 		'block-opening-brace-space-before': 'always-multi-line',
 		'block-no-empty': true,
+		'color-function-notation': 'legacy',
 		'color-hex-case': 'upper',
 		'color-hex-length': 'short',
 		'color-named': 'never',
@@ -65,6 +67,7 @@ module.exports = {
 		'function-parentheses-space-inside': 'never-single-line',
 		'function-url-quotes': 'always',
 		'function-whitespace-after': 'always',
+		'hue-degree-notation': 'number',
 		indentation: 'tab',
 		'keyframe-declaration-no-important': true,
 		'length-zero-no-unit': true,
