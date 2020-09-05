@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v1.3.3...v2.0.0) (2020-09-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename rules as per stylelint 13.7.0 changes
+
+* rename rules as per stylelint 13.7.0 changes ([ca3840e](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/ca3840e518b07653ab0b326100bcedc368157e73))
+
 ### [1.3.3](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v1.3.2...v1.3.3) (2020-07-17)
 
 ### [1.3.2](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v1.3.1...v1.3.2) (2020-07-17)
