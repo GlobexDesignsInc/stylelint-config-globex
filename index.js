@@ -146,7 +146,7 @@ module.exports = {
 		'string-no-newline': true,
 		'string-quotes': 'double',
 		'time-min-milliseconds': 100,
-		'unit-disallowed-list': ['em', 'rem'],
+		'unit-disallowed-list': ['em'],
 		'unit-case': 'lower',
 		'unit-no-unknown': true,
 		'value-list-max-empty-lines': 0,
