@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v2.0.0...v2.1.0) (2020-09-07)
+
+
+### Features
+
+* remove 'rem' from disallowed unit list ([e46ff83](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/e46ff83e6f05df555f34dd706101a856dde2590c))
+
 ## [2.0.0](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v1.3.3...v2.0.0) (2020-09-05)
 
 
