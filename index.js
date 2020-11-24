@@ -175,7 +175,8 @@ module.exports = {
 		'block-closing-brace-newline-before': null,
 		'block-closing-brace-space-after': null,
 		'block-opening-brace-newline-before': null,
-		'comment-pattern': null,
+		// This rule cannot be turned off with 'null'
+		// 'comment-pattern': null,
 		'custom-media-pattern': null,
 		'custom-property-pattern': null,
 		'declaration-block-trailing-semicolon': null,
