@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.3](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v2.1.2...v2.1.3) (2020-11-24)
+
+
+### Bug Fixes
+
+* turn off broken comment-pattern rule ([56ac26b](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/56ac26be103c981fdc503ece9fbec0c8feedb75c))
+
 ### [2.1.2](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v2.1.1...v2.1.2) (2020-11-24)
 
 ### [2.1.1](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v2.1.0...v2.1.1) (2020-09-12)
