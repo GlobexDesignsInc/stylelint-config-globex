@@ -1,6 +1,6 @@
 {
 	"name": "stylelint-config-globex",
-	"version": "2.4.0",
+	"version": "2.4.1",
 	"description": "CSS Code Standards for Globex - Stylelint Shareable Config",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
