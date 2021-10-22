@@ -20,8 +20,8 @@
 		"test": "yarn lint"
 	},
 	"dependencies": {
-		"stylelint": "13.13.1",
-		"stylelint-order": "4.1.0"
+		"stylelint": "14.0.0",
+		"stylelint-order": "5.0.0"
 	},
 	"devDependencies": {
 		"eslint-config-globex": "5.10.0",
