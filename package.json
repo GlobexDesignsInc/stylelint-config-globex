@@ -1,7 +1,7 @@
 {
 	"name": "stylelint-config-globex",
 	"version": "3.0.0",
-	"description": "CSS Code Standards for Globex - Stylelint Shareable Config",
+	"description": "CSS Code Standards for Globex Designs - Stylelint Shareable Config",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
 	"homepage": "https://github.com/GlobexDesignsInc/stylelint-config-globex",
@@ -20,12 +20,13 @@
 		"test": "yarn lint"
 	},
 	"dependencies": {
-		"stylelint": "14.0.1",
-		"stylelint-order": "5.0.0"
+		"stylelint": "^14.0.1",
+		"stylelint-order": "^5.0.0"
 	},
 	"devDependencies": {
 		"eslint-config-globex": "6.0.0",
 		"prettier-package-json": "2.6.0",
 		"standard-version": "9.3.2"
-	}
+	},
+	"packageManager": "yarn@3.1.0"
 }

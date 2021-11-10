@@ -47,20 +47,3 @@ Enable via `package.json` scripts with the custom `stylelint-globex` bin:
 	}
 }
 ```
-
-## Publish a new version
-
-```sh
-yarn test
-
-# for regular releases
-yarn release
-
-# for beta releases
-yarn release --prerelease beta
-
-# confirm code looks good
-
-# then publish
-git push --follow-tags origin master && npm publish
-```
