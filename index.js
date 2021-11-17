@@ -205,6 +205,7 @@ module.exports = {
 		'no-missing-end-of-source-newline': null,
 		'order/properties-order': null,
 		'property-allowed-list': null,
+		'rule-selector-property-disallowed-list': null,
 		'selector-id-pattern': null,
 		'selector-attribute-name-disallowed-list': null,
 		'selector-attribute-operator-disallowed-list': null,
