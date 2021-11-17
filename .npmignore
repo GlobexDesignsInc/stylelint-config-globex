@@ -1,3 +1,6 @@
 .github
+.yarn
 .eslintrc
+.yarnrc.yml
+CONTRIBUTING.md
 logo.png
