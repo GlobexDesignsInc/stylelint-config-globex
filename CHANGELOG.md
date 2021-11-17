@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v3.0.0...v3.1.0) (2021-11-17)
+
+
+### Features
+
+* track new rule-selector-property-disallowed-list rule ([37946d6](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/37946d6197a0af39d03605a079c140e6a1a219a7))
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint to ^14.1.0 ([ec49aea](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/ec49aea4b4fc2da3037ff7e86946f9b44e8cdfaf))
+
 ## [3.0.0](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v2.4.1...v3.0.0) (2021-10-27)
 
 
