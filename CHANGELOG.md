@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.2.0](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v3.1.0...v3.2.0) (2022-02-09)
+
+
+### Features
+
+* enable function-no-unknown rule ([2a6350c](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/2a6350c85a7566281e2ea6334606ed61d24b8ef5))
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint to ^14.2.0 ([11ceee9](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/11ceee926431f698dc0c3be5e820d769a4d4fdc7))
+* **deps:** update dependency stylelint to ^14.3.0 ([7fe7164](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/7fe7164c1ea7d9d43c3ee0e7077c5cf44da9b565))
+* **deps:** update dependency stylelint to ^14.4.0 ([d7c3baf](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/d7c3baf7219daa599ee6bbd62912b4d1179d8bd3))
+
 ## [3.1.0](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v3.0.0...v3.1.0) (2021-11-17)
 
 
