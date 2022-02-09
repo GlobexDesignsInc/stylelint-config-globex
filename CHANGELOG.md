@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.3.0](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v3.2.0...v3.3.0) (2022-02-09)
+
+
+### Features
+
+* enable camelCaseSvgKeywords option for value-keyword-case ([08cf397](https://github.com/GlobexDesignsInc/stylelint-config-globex/commit/08cf397821e5042aa5603e9b4703bee251940213))
+
 ## [3.2.0](https://github.com/GlobexDesignsInc/stylelint-config-globex/compare/v3.1.0...v3.2.0) (2022-02-09)
 
 
