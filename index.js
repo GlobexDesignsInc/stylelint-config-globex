@@ -65,6 +65,7 @@ module.exports = {
 		'function-linear-gradient-no-nonstandard-direction': true,
 		'function-max-empty-lines': 2,
 		'function-name-case': 'lower',
+		'function-no-unknown': true,
 		'function-parentheses-newline-inside': 'always-multi-line',
 		'function-parentheses-space-inside': 'never-single-line',
 		'function-url-quotes': 'always',
