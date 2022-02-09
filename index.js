@@ -158,6 +158,7 @@ module.exports = {
 		'value-list-max-empty-lines': 0,
 		'value-no-vendor-prefix': true,
 		'value-keyword-case': ['lower', {
+			camelCaseSvgKeywords: true,
 			ignoreKeywords: [
 				'Arial', 'Consolas', 'Courier', 'Helvetica', 'Inconsolata', 'Menlo', 'Roboto',
 			],
