@@ -1,10 +1,14 @@
 {
 	"name": "stylelint-config-globex",
-	"version": "3.3.0",
+	"version": "0.0.0-development",
 	"description": "CSS Code Standards for Globex Designs - Stylelint Shareable Config",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
 	"homepage": "https://github.com/GlobexDesignsInc/stylelint-config-globex",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GlobexDesignsInc/stylelint-config-globex.git"
+	},
 	"bugs": {
 		"url": "https://github.com/GlobexDesignsInc/stylelint-config-globex/issues"
 	},
@@ -16,7 +20,7 @@
 		"eslint": "eslint-globex .",
 		"lint": "yarn eslint && yarn packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
-		"release": "standard-version",
+		"semantic-release": "semantic-release",
 		"test": "yarn lint"
 	},
 	"dependencies": {
@@ -24,9 +28,13 @@
 		"stylelint-order": "^5.0.0"
 	},
 	"devDependencies": {
+		"@commitlint/cli": "16.2.1",
+		"@commitlint/config-conventional": "16.2.1",
 		"eslint-config-globex": "6.3.0",
+		"husky": "7.0.4",
+		"lint-staged": "12.3.4",
 		"prettier-package-json": "2.6.0",
-		"standard-version": "9.3.2"
+		"semantic-release": "19.0.2"
 	},
 	"packageManager": "yarn@3.1.1"
 }
