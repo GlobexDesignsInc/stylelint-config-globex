@@ -23,6 +23,9 @@
 		"semantic-release": "semantic-release",
 		"test": "yarn lint"
 	},
+	"resolutions": {
+		"chalk": "4.1.2"
+	},
 	"dependencies": {
 		"stylelint": "^14.5.1",
 		"stylelint-order": "^5.0.0"
@@ -35,6 +38,11 @@
 		"lint-staged": "12.3.4",
 		"prettier-package-json": "2.6.0",
 		"semantic-release": "19.0.2"
+	},
+	"comments": {
+		"resolutions": {
+			"chalk": "Need to lock this to ensure semantic-release works. See https://github.com/semantic-release/semantic-release/issues/2323 for more info"
+		}
 	},
 	"packageManager": "yarn@3.1.1"
 }
