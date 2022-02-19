@@ -5,7 +5,9 @@ on:
     workflows: ["test"]
     branches:
       - master
+      - next
       - beta
+      - "*.x"
     types: 
       - completed
 
@@ -16,6 +18,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          cache: 'yarn'
+          node-version: 'lts/*'
+
+      - name: Install dependencies
+        run: yarn install
 
       - name: Release
         env:
