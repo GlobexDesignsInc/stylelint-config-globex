@@ -1,4 +1,4 @@
-name: Test
+name: Test & Release
 
 on: [push, pull_request]
 
@@ -18,3 +18,13 @@ jobs:
     
     - name: Test
       run: yarn test
+
+  release:
+    runs-on: ubuntu-latest
+    needs: [test]
+    steps:
+    - name: Release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      run: yarn semantic-release
