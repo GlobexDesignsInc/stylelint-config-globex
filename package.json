@@ -20,6 +20,7 @@
 		"eslint": "eslint-globex .",
 		"lint": "yarn eslint && yarn packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
+		"prepare": "husky install",
 		"semantic-release": "semantic-release",
 		"test": "yarn lint"
 	},
