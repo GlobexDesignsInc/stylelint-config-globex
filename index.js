@@ -187,6 +187,7 @@ module.exports = {
 		'custom-media-pattern': null,
 		'custom-property-pattern': null,
 		'declaration-block-trailing-semicolon': null,
+		'declaration-property-max-values': null,
 		'declaration-property-unit-disallowed-list': null,
 		'declaration-property-unit-allowed-list': null,
 		'declaration-property-value-allowed-list': null,
