@@ -139,6 +139,7 @@ module.exports = {
 		'selector-max-universal': 0,
 		'selector-no-qualifying-type': true,
 		'selector-no-vendor-prefix': true,
+		'selector-not-notation': 'simple',
 		'selector-pseudo-class-case': 'lower',
 		'selector-pseudo-class-no-unknown': [true, {ignorePseudoClasses: ['global']}],
 		'selector-pseudo-class-parentheses-space-inside': 'never',
