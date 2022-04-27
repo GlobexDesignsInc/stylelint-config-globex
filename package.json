@@ -18,11 +18,11 @@
 	},
 	"scripts": {
 		"eslint": "eslint-globex .",
-		"lint": "yarn eslint && yarn packagelint",
-		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
 		"postinstall": "husky install",
+		"lint": "yarn eslint && yarn packagelint",
 		"prepack": "pinst --disable",
 		"postpack": "pinst --enable",
+		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
 		"semantic-release": "semantic-release",
 		"test": "yarn lint"
 	},
@@ -36,7 +36,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "16.2.3",
 		"@commitlint/config-conventional": "16.2.1",
-		"eslint-config-globex": "6.9.0",
+		"eslint-config-globex": "6.10.0",
 		"husky": "7.0.4",
 		"lint-staged": "12.4.1",
 		"pinst": "3.0.0",
