@@ -72,6 +72,7 @@ module.exports = {
 		'function-whitespace-after': 'always',
 		'hue-degree-notation': 'number',
 		indentation: 'tab',
+		'keyframe-block-no-duplicate-selectors': true,
 		'keyframe-declaration-no-important': true,
 		'length-zero-no-unit': true,
 		'max-empty-lines': 2,
