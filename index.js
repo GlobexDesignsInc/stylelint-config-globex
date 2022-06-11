@@ -71,6 +71,7 @@ module.exports = {
 		'function-url-quotes': 'always',
 		'function-whitespace-after': 'always',
 		'hue-degree-notation': 'number',
+		'import-notation': 'string',
 		indentation: 'tab',
 		'keyframe-block-no-duplicate-selectors': true,
 		'keyframe-declaration-no-important': true,
