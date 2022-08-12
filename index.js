@@ -6,6 +6,7 @@ module.exports = {
 		// ERRORS
 
 		'alpha-value-notation': 'number',
+		'annotation-no-unknown': true,
 		'at-rule-empty-line-before': ['always', {
 			ignore: ['after-comment', 'inside-block'],
 		}],
