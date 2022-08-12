@@ -200,6 +200,7 @@ module.exports = {
 		'function-url-scheme-disallowed-list': null,
 		'function-url-scheme-allowed-list': null,
 		'function-allowed-list': null,
+		'keyframe-selector-notation': null,
 		'keyframes-name-pattern': null,
 		linebreaks: null,
 		'media-feature-name-disallowed-list': null,
