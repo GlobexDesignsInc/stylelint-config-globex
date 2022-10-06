@@ -249,12 +249,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-config-globex/node@npm:7.0.0":
-  version: 7.0.0
-  resolution: "@eslint-config-globex/node@npm:7.0.0"
+"@eslint-config-globex/node@npm:7.2.0":
+  version: 7.2.0
+  resolution: "@eslint-config-globex/node@npm:7.2.0"
   dependencies:
     eslint-plugin-node: ^11.1.0
-  checksum: f39a5a59f6ed822d4e5f6d21e22932d39d684a19d45e57a48abd939242ef9cef87497671ec6b93a33b80e1c83b86f7141400d37a719c114b4bf998f7d26acdfb
+  checksum: e54a39f184bb71841dc6ca54589570583ef7ec50646c16c9fab666f6fec9984b561880804c4d9dc40c809c5490ae7f54a591fe27096cd93a9262357abddd2519
   languageName: node
   linkType: hard
 
@@ -5883,7 +5883,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.1.2
     "@commitlint/config-conventional": 17.1.0
-    "@eslint-config-globex/node": 7.0.0
+    "@eslint-config-globex/node": 7.2.0
     eslint-config-globex: 7.2.0
     husky: 8.0.1
     lint-staged: 13.0.3
