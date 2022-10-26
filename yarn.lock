@@ -249,12 +249,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-config-globex/node@npm:7.2.1":
-  version: 7.2.1
-  resolution: "@eslint-config-globex/node@npm:7.2.1"
+"@eslint-config-globex/node@npm:7.3.0":
+  version: 7.3.0
+  resolution: "@eslint-config-globex/node@npm:7.3.0"
   dependencies:
     eslint-plugin-node: ^11.1.0
-  checksum: 34dd51f5c48849084d4a5829e4ca7d5fef50327a560d63fc7f27743f6e0a8007fe0efa8f1a8c1aa3283c23d01f91cc1f136e872545abdabc31aac8ee8e0c3d6d
+  checksum: 4bf3876e47f0dfb5e046f727adfbe6d1e432fd16532071b1545d19f525d8137cf2dbc4f290b9772e79eb5dcba9aa6f454d733a6b39e7ef70c83d4ebb2fa8ffd9
   languageName: node
   linkType: hard
 
@@ -282,14 +282,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@humanwhocodes/config-array@npm:^0.10.5":
-  version: 0.10.7
-  resolution: "@humanwhocodes/config-array@npm:0.10.7"
+"@humanwhocodes/config-array@npm:^0.11.6":
+  version: 0.11.6
+  resolution: "@humanwhocodes/config-array@npm:0.11.6"
   dependencies:
     "@humanwhocodes/object-schema": ^1.2.1
     debug: ^4.1.1
     minimatch: ^3.0.4
-  checksum: 009d64be8d5bd098ff04e10af79e34f5633245250581fca032fac12a8667b2df8e7d169e69c05bff4d83ea3dd3c7d2d0e05ea9b94d89a7d092e26530caf6f8a3
+  checksum: 2fb7288638968dfeec27f06aef52f043726edd126ac47f24b54256902fdb35b3bf9863d4a4caf0423dccca5dd1354ca5899f3ac047b56774641ca0c4cbedb104
   languageName: node
   linkType: hard
 
@@ -355,7 +355,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nodelib/fs.walk@npm:^1.2.3":
+"@nodelib/fs.walk@npm:^1.2.3, @nodelib/fs.walk@npm:^1.2.8":
   version: 1.2.8
   resolution: "@nodelib/fs.walk@npm:1.2.8"
   dependencies:
@@ -1992,19 +1992,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-globex@npm:7.2.1":
-  version: 7.2.1
-  resolution: "eslint-config-globex@npm:7.2.1"
+"eslint-config-globex@npm:7.3.0":
+  version: 7.3.0
+  resolution: "eslint-config-globex@npm:7.3.0"
   dependencies:
-    eslint: ^8.25.0
+    eslint: ^8.26.0
     eslint-plugin-filenames: ^1.3.2
     eslint-plugin-import: ^2.26.0
     eslint-plugin-json: ^3.1.0
-    eslint-plugin-promise: ^6.1.0
+    eslint-plugin-promise: ^6.1.1
     eslint-plugin-sonarjs: ^0.16.0
   bin:
     eslint-globex: ./bin/eslint-globex.js
-  checksum: 2e425d54f4653386ecbc1714fba39d3348166fa624668d00120d1d729bdf64db1b13357e8d7a495ca48298b4061689516b39619c50cd572920c1dfdbe57599e3
+  checksum: b19bb240278e03b18cd1301117c1962e69e75e856e41245685ea8e7239c55cd3134805ea4896bd2c6b2ae0ed83030d892cb3d0727820981ae4fe15f042858e25
   languageName: node
   linkType: hard
 
@@ -2105,12 +2105,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-promise@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "eslint-plugin-promise@npm:6.1.0"
+"eslint-plugin-promise@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "eslint-plugin-promise@npm:6.1.1"
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0
-  checksum: 01c55f6c4ddbb3c1ac6ccd1e834365bf12d3aaf91b562ee9027b1ae3943eb86673d44a68ea3a303a93b9ce43dd51114751c3e644da27a6d4ee4d66c8f67ff72d
+  checksum: 46b9a4f79dae5539987922afc27cc17cbccdecf4f0ba19c0ccbf911b0e31853e9f39d9959eefb9637461b52772afa1a482f1f87ff16c1ba38bdb6fcf21897e9a
   languageName: node
   linkType: hard
 
@@ -2174,13 +2174,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.25.0":
-  version: 8.25.0
-  resolution: "eslint@npm:8.25.0"
+"eslint@npm:^8.26.0":
+  version: 8.26.0
+  resolution: "eslint@npm:8.26.0"
   dependencies:
     "@eslint/eslintrc": ^1.3.3
-    "@humanwhocodes/config-array": ^0.10.5
+    "@humanwhocodes/config-array": ^0.11.6
     "@humanwhocodes/module-importer": ^1.0.1
+    "@nodelib/fs.walk": ^1.2.8
     ajv: ^6.10.0
     chalk: ^4.0.0
     cross-spawn: ^7.0.2
@@ -2196,14 +2197,14 @@ __metadata:
     fast-deep-equal: ^3.1.3
     file-entry-cache: ^6.0.1
     find-up: ^5.0.0
-    glob-parent: ^6.0.1
+    glob-parent: ^6.0.2
     globals: ^13.15.0
-    globby: ^11.1.0
     grapheme-splitter: ^1.0.4
     ignore: ^5.2.0
     import-fresh: ^3.0.0
     imurmurhash: ^0.1.4
     is-glob: ^4.0.0
+    is-path-inside: ^3.0.3
     js-sdsl: ^4.1.4
     js-yaml: ^4.1.0
     json-stable-stringify-without-jsonify: ^1.0.1
@@ -2218,7 +2219,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: 7acf2693b522b573657b53d2245b5522d3a131e4224b1cbf01e2c3579632fdbf62599284f68bc483e6e4eba23ae3643c9544744e0214a86e727cc361cedcd0fa
+  checksum: a2aced939ea060f77d10dcfced5cfeb940f63f383fd7ab1decadea64170ab552582e1c5909db1db641d4283178c9bc569f19b0f8900e00314a5f783e4b3f759d
   languageName: node
   linkType: hard
 
@@ -2609,7 +2610,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob-parent@npm:^6.0.1":
+"glob-parent@npm:^6.0.2":
   version: 6.0.2
   resolution: "glob-parent@npm:6.0.2"
   dependencies:
@@ -3182,7 +3183,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-path-inside@npm:^3.0.2":
+"is-path-inside@npm:^3.0.2, is-path-inside@npm:^3.0.3":
   version: 3.0.3
   resolution: "is-path-inside@npm:3.0.3"
   checksum: abd50f06186a052b349c15e55b182326f1936c89a78bf6c8f2b707412517c097ce04bc49a0ca221787bc44e1049f51f09a2ffb63d22899051988d3a618ba13e9
@@ -5886,8 +5887,8 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.1.2
     "@commitlint/config-conventional": 17.1.0
-    "@eslint-config-globex/node": 7.2.1
-    eslint-config-globex: 7.2.1
+    "@eslint-config-globex/node": 7.3.0
+    eslint-config-globex: 7.3.0
     husky: 8.0.1
     lint-staged: 13.0.3
     pinst: 3.0.0
