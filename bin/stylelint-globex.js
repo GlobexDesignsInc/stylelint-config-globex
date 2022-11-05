@@ -16,6 +16,8 @@ const fileExists = function (path) {
 	return exists;
 };
 
+const a = true;
+
 const findBin = function (search) {
 	const searchPath = path.join(search, binPath);
 	const exists = fileExists(searchPath);

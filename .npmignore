@@ -3,4 +3,5 @@
 .eslintrc
 .yarnrc.yml
 CONTRIBUTING.md
+lefthook.yml
 logo.png
