@@ -249,12 +249,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-config-globex/node@npm:7.3.0":
-  version: 7.3.0
-  resolution: "@eslint-config-globex/node@npm:7.3.0"
+"@eslint-config-globex/node@npm:7.4.0":
+  version: 7.4.0
+  resolution: "@eslint-config-globex/node@npm:7.4.0"
   dependencies:
     eslint-plugin-node: ^11.1.0
-  checksum: 4bf3876e47f0dfb5e046f727adfbe6d1e432fd16532071b1545d19f525d8137cf2dbc4f290b9772e79eb5dcba9aa6f454d733a6b39e7ef70c83d4ebb2fa8ffd9
+  checksum: 7235ade61a995a7331522ee5ec47bc7ec5339caf6363eae1ce72317627892a5257c1986aa518dd4d46422265ae961d1b2b45ab5f84cd990a07e381b625d47e99
   languageName: node
   linkType: hard
 
@@ -1925,11 +1925,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-globex@npm:7.3.0":
-  version: 7.3.0
-  resolution: "eslint-config-globex@npm:7.3.0"
+"eslint-config-globex@npm:7.4.0":
+  version: 7.4.0
+  resolution: "eslint-config-globex@npm:7.4.0"
   dependencies:
-    eslint: ^8.26.0
+    eslint: ^8.27.0
     eslint-plugin-filenames: ^1.3.2
     eslint-plugin-import: ^2.26.0
     eslint-plugin-json: ^3.1.0
@@ -1937,7 +1937,7 @@ __metadata:
     eslint-plugin-sonarjs: ^0.16.0
   bin:
     eslint-globex: ./bin/eslint-globex.js
-  checksum: b19bb240278e03b18cd1301117c1962e69e75e856e41245685ea8e7239c55cd3134805ea4896bd2c6b2ae0ed83030d892cb3d0727820981ae4fe15f042858e25
+  checksum: 388124ab0bee581ed5bf5aadecf635e4c07b4e799fb34b5fff5ecc15e4a5f92539bab01bcba73fda5d7d3872b59b8bde6a03fe9f55fb6db06a8efe3cd9ddf8c7
   languageName: node
   linkType: hard
 
@@ -2107,9 +2107,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.26.0":
-  version: 8.26.0
-  resolution: "eslint@npm:8.26.0"
+"eslint@npm:^8.27.0":
+  version: 8.27.0
+  resolution: "eslint@npm:8.27.0"
   dependencies:
     "@eslint/eslintrc": ^1.3.3
     "@humanwhocodes/config-array": ^0.11.6
@@ -2152,7 +2152,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: a2aced939ea060f77d10dcfced5cfeb940f63f383fd7ab1decadea64170ab552582e1c5909db1db641d4283178c9bc569f19b0f8900e00314a5f783e4b3f759d
+  checksum: 153b022d309e1b647a73b1bb0fa98912add699b06e279084155f23c6f2b5fc5abd05411fc1ba81608a24bbfaf044ca079544c16fffa6fc987b8f676c9960a2c4
   languageName: node
   linkType: hard
 
@@ -5649,8 +5649,8 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.2.0
     "@commitlint/config-conventional": 17.2.0
-    "@eslint-config-globex/node": 7.3.0
-    eslint-config-globex: 7.3.0
+    "@eslint-config-globex/node": 7.4.0
+    eslint-config-globex: 7.4.0
     lefthook: 1.2.0
     prettier-package-json: 2.7.0
     semantic-release: 19.0.5
