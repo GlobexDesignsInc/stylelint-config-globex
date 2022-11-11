@@ -22,6 +22,11 @@ npm install -D stylelint-config-globex
 
 # With yarn
 yarn add -D stylelint-config-globex
+
+# or
+
+# With pnpm
+pnpm add -D stylelint-config-globex
 ```
 
 ## Usage

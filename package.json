@@ -18,10 +18,10 @@
 	},
 	"scripts": {
 		"eslint": "eslint-globex .",
-		"lint": "yarn eslint && yarn packagelint",
+		"lint": "pnpm eslint && pnpm packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
 		"semantic-release": "semantic-release",
-		"test": "yarn lint"
+		"test": "pnpm lint"
 	},
 	"resolutions": {
 		"chalk": "4.1.2"
@@ -43,6 +43,5 @@
 		"resolutions": {
 			"chalk": "Need to lock this to ensure semantic-release works. See https://github.com/semantic-release/semantic-release/issues/2323 for more info"
 		}
-	},
-	"packageManager": "yarn@3.2.4"
+	}
 }
