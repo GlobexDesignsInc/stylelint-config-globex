@@ -33,8 +33,8 @@
 	"devDependencies": {
 		"@commitlint/cli": "17.2.0",
 		"@commitlint/config-conventional": "17.2.0",
-		"@eslint-config-globex/node": "7.5.0",
-		"eslint-config-globex": "7.5.0",
+		"@eslint-config-globex/node": "7.5.1",
+		"eslint-config-globex": "7.5.1",
 		"lefthook": "1.2.1",
 		"prettier-package-json": "2.7.0",
 		"semantic-release": "19.0.5"
