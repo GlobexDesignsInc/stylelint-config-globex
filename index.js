@@ -30,9 +30,6 @@ module.exports = {
 		'color-named': 'never',
 		'color-no-hex': true,
 		'color-no-invalid-hex': true,
-		'comment-empty-line-before': ['always', {
-			ignore: ['stylelint-commands'],
-		}],
 		'comment-no-empty': true,
 		'comment-whitespace-inside': 'always',
 		'custom-property-empty-line-before': 'never',
@@ -186,6 +183,7 @@ module.exports = {
 		'block-closing-brace-newline-before': null,
 		'block-closing-brace-space-after': null,
 		'block-opening-brace-newline-before': null,
+		'comment-empty-line-before': null,
 		// This rule cannot be turned off with 'null'
 		// 'comment-pattern': null,
 		'custom-media-pattern': null,
