@@ -29,6 +29,16 @@ yarn add -D stylelint-config-globex
 pnpm add -D stylelint-config-globex
 ```
 
+## Note for pnpm users
+
+If you are using pnpm, it's recommended that you add the following to your `.npmrc` file to ensure code editors like VS Code can find the correct stylelint executuable:
+
+```sh
+
+```
+public-hoist-pattern[]=stylelint
+```
+
 ## Usage
 
 > **NOTE**: `stylelint-config-globex` comes with its own `stylelint-globex` bin tool so that you don't need to install `stylelint` as a peerDependency. All the necessary dependencies are bundled together for you.
