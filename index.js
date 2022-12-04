@@ -206,6 +206,7 @@ module.exports = {
 		'media-feature-name-allowed-list': null,
 		'media-feature-name-disallowed-list': null,
 		'media-feature-name-value-allowed-list': null,
+		'media-feature-range-notation': null,
 		'no-descending-specificity': null,
 		'no-empty-first-line': null,
 		'no-eol-whitespace': null,
