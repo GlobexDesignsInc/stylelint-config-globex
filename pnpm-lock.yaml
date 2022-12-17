@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 overrides:
-  chalk: 4.1.2
+  chalk: 5.2.0
 
 specifiers:
   '@commitlint/cli': 17.3.0
@@ -44,7 +44,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-validator-identifier': 7.19.1
-      chalk: 4.1.2
+      chalk: 5.2.0
       js-tokens: 4.0.0
 
   /@colors/colors/1.5.0:
@@ -111,7 +111,7 @@ packages:
     engines: {node: '>=v14'}
     dependencies:
       '@commitlint/types': 17.0.0
-      chalk: 4.1.2
+      chalk: 5.2.0
     dev: true
 
   /@commitlint/is-ignored/17.2.0:
@@ -141,7 +141,7 @@ packages:
       '@commitlint/resolve-extends': 17.3.0
       '@commitlint/types': 17.0.0
       '@types/node': 14.18.34
-      chalk: 4.1.2
+      chalk: 5.2.0
       cosmiconfig: 7.1.0
       cosmiconfig-typescript-loader: 4.2.0_gpjkqcnd7kvp634sqar3rhdlvi
       lodash.isplainobject: 4.0.6
@@ -219,7 +219,7 @@ packages:
     resolution: {integrity: sha512-hBAw6U+SkAT5h47zDMeOu3HSiD0SODw4Aq7rRNh1ceUmL7GyLKYhPbUvlRWqZ65XjBLPHZhFyQlRaPNz8qvUyQ==}
     engines: {node: '>=v14'}
     dependencies:
-      chalk: 4.1.2
+      chalk: 5.2.0
     dev: true
 
   /@cspotcode/source-map-support/0.8.1:
@@ -770,12 +770,9 @@ packages:
       redeyed: 2.1.1
     dev: true
 
-  /chalk/4.1.2:
-    resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
-    engines: {node: '>=10'}
-    dependencies:
-      ansi-styles: 4.3.0
-      supports-color: 7.2.0
+  /chalk/5.2.0:
+    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
   /clean-stack/2.2.0:
     resolution: {integrity: sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==}
@@ -1347,7 +1344,7 @@ packages:
       '@humanwhocodes/module-importer': 1.0.1
       '@nodelib/fs.walk': 1.2.8
       ajv: 6.12.6
-      chalk: 4.1.2
+      chalk: 5.2.0
       cross-spawn: 7.0.3
       debug: 4.3.4
       doctrine: 3.0.0
@@ -2300,7 +2297,7 @@ packages:
     dependencies:
       ansi-escapes: 5.0.0
       cardinal: 2.1.1
-      chalk: 4.1.2
+      chalk: 5.2.0
       cli-table3: 0.6.3
       marked: 4.2.3
       node-emoji: 1.11.0
@@ -3121,7 +3118,7 @@ packages:
     resolution: {integrity: sha512-iuh+gPf28RkltuJC7W5MRi6XAjTDCAPC/prJUpQoG4vIP3MJZ+GTydVnodXA7pwvTKb2cA0m9OFZW/cdWy/I/w==}
     engines: {node: '>=6'}
     dependencies:
-      chalk: 4.1.2
+      chalk: 5.2.0
       figures: 2.0.0
       pkg-conf: 2.1.0
     dev: true

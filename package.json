@@ -24,7 +24,7 @@
 		"test": "pnpm lint"
 	},
 	"resolutions": {
-		"chalk": "4.1.2"
+		"chalk": "5.2.0"
 	},
 	"dependencies": {
 		"stylelint": "^14.16.0",
