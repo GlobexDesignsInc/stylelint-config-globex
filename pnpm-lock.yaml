@@ -11,12 +11,12 @@ specifiers:
   lefthook: 1.2.6
   prettier-package-json: 2.8.0
   semantic-release: 19.0.5
-  stylelint: ^14.16.0
+  stylelint: ^14.16.1
   stylelint-order: ^5.0.0
 
 dependencies:
-  stylelint: 14.16.0
-  stylelint-order: 5.0.0_stylelint@14.16.0
+  stylelint: 14.16.1
+  stylelint-order: 5.0.0_stylelint@14.16.1
 
 devDependencies:
   '@commitlint/cli': 17.3.0
@@ -3276,18 +3276,18 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: false
 
-  /stylelint-order/5.0.0_stylelint@14.16.0:
+  /stylelint-order/5.0.0_stylelint@14.16.1:
     resolution: {integrity: sha512-OWQ7pmicXufDw5BlRqzdz3fkGKJPgLyDwD1rFY3AIEfIH/LQY38Vu/85v8/up0I+VPiuGRwbc2Hg3zLAsJaiyw==}
     peerDependencies:
       stylelint: ^14.0.0
     dependencies:
       postcss: 8.4.19
       postcss-sorting: 7.0.1_postcss@8.4.19
-      stylelint: 14.16.0
+      stylelint: 14.16.1
     dev: false
 
-  /stylelint/14.16.0:
-    resolution: {integrity: sha512-X6uTi9DcxjzLV8ZUAjit1vsRtSwcls0nl07c9rqOPzvpA8IvTX/xWEkBRowS0ffevRrqkHa/ThDEu86u73FQDg==}
+  /stylelint/14.16.1:
+    resolution: {integrity: sha512-ErlzR/T3hhbV+a925/gbfc3f3Fep9/bnspMiJPorfGEmcBbXdS+oo6LrVtoUZ/w9fqD6o6k7PtUlCOsCRdjX/A==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
