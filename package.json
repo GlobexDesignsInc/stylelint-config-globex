@@ -34,7 +34,7 @@
 		"@commitlint/cli": "17.4.2",
 		"@commitlint/config-conventional": "17.4.2",
 		"@eslint-config-globex/node": "7.6.0",
-		"eslint-config-globex": "7.6.0",
+		"eslint-config-globex": "7.7.0",
 		"lefthook": "1.2.7",
 		"prettier-package-json": "2.8.0",
 		"semantic-release": "20.0.2"
