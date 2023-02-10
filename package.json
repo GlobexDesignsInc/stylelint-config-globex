@@ -27,7 +27,7 @@
 		"chalk": "4.1.2"
 	},
 	"dependencies": {
-		"stylelint": "^14.16.1",
+		"stylelint": "^15.0.0",
 		"stylelint-order": "^6.0.2"
 	},
 	"devDependencies": {
