@@ -204,6 +204,7 @@ module.exports = {
 		linebreaks: null,
 		'media-feature-name-allowed-list': null,
 		'media-feature-name-disallowed-list': null,
+		'media-feature-name-unit-allowed-list': null,
 		'media-feature-name-value-allowed-list': null,
 		'media-feature-range-notation': null,
 		'no-descending-specificity': null,
