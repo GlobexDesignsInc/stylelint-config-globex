@@ -50,6 +50,7 @@ module.exports = {
 		'declaration-colon-space-before': 'never',
 		'declaration-empty-line-before': 'never',
 		'declaration-no-important': true,
+		'declaration-property-value-no-unknown': true,
 		'font-family-name-quotes': 'always-where-recommended',
 		'font-family-no-duplicate-names': true,
 		'font-family-no-missing-generic-family-keyword': true,
