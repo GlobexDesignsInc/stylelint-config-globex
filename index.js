@@ -117,6 +117,7 @@ module.exports = {
 			except: ['first-nested'],
 			ignore: ['after-comment'],
 		}],
+		'selector-anb-no-unmatchable': true,
 		'selector-attribute-brackets-space-inside': 'never',
 		'selector-attribute-operator-space-after': 'never',
 		'selector-attribute-operator-space-before': 'never',
