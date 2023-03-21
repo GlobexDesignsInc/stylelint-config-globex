@@ -34,8 +34,6 @@ pnpm add -D stylelint-config-globex
 If you are using pnpm, it's recommended that you add the following to your `.npmrc` file to ensure code editors like VS Code can find the correct stylelint executuable:
 
 ```sh
-
-```
 public-hoist-pattern[]=stylelint
 ```
 
