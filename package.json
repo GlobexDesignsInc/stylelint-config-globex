@@ -31,7 +31,7 @@
 		"stylelint-order": "^6.0.3"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "17.4.4",
+		"@commitlint/cli": "17.5.0",
 		"@commitlint/config-conventional": "17.4.4",
 		"@eslint-config-globex/node": "7.6.0",
 		"eslint-config-globex": "7.7.2",
