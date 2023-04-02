@@ -213,6 +213,7 @@ module.exports = {
 		'no-eol-whitespace': null,
 		'no-invalid-double-slash-comments': null,
 		'no-missing-end-of-source-newline': null,
+		'no-unknown-custom-properties': null,
 		'order/properties-order': null,
 		'property-allowed-list': null,
 		'rule-selector-property-disallowed-list': null,
