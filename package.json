@@ -28,7 +28,8 @@
 	},
 	"dependencies": {
 		"stylelint": "^15.4.0",
-		"stylelint-order": "^6.0.3"
+		"stylelint-order": "^6.0.3",
+		"stylelint-stylistic": "^0.4.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "17.5.1",

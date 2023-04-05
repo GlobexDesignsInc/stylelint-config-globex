@@ -10,6 +10,9 @@ dependencies:
   stylelint-order:
     specifier: ^6.0.3
     version: 6.0.3(stylelint@15.4.0)
+  stylelint-stylistic:
+    specifier: ^0.4.0
+    version: 0.4.0(stylelint@15.4.0)
 
 devDependencies:
   '@commitlint/cli':
@@ -485,8 +488,8 @@ packages:
       '@octokit/openapi-types': 16.0.0
     dev: true
 
-  /@pnpm/config.env-replace@1.0.0:
-    resolution: {integrity: sha512-ZVPVDi1E8oeXlYqkGRtX0CkzLTwE2zt62bjWaWKaAvI8NZqHzlMvGeSNDpW+JB3+aKanYb4UETJOF1/CxGPemA==}
+  /@pnpm/config.env-replace@1.1.0:
+    resolution: {integrity: sha512-htyl8TWnKL7K/ESFa1oW2UB5lVDxuF5DpM7tBi6Hu2LNL3mWkIzNLG6N4zoCUP1lCKNxWy/3iu8mS8MvToGd6w==}
     engines: {node: '>=12.22.0'}
     dev: true
 
@@ -497,11 +500,11 @@ packages:
       graceful-fs: 4.2.10
     dev: true
 
-  /@pnpm/npm-conf@2.1.0:
-    resolution: {integrity: sha512-Oe6ntvgsMTE3hDIqy6sajqHF+MnzJrOF06qC2QSiUEybLL7cp6tjoKUa32gpd9+KPVl4QyMs3E3nsXrx/Vdnlw==}
+  /@pnpm/npm-conf@2.1.1:
+    resolution: {integrity: sha512-yfRcuupmxxeDOSxvw4g+wFCrGiPD0L32f5WMzqMXp7Rl93EOCdFiDcaSNnZ10Up9GdNqkj70UTa8hfhPFphaZA==}
     engines: {node: '>=12'}
     dependencies:
-      '@pnpm/config.env-replace': 1.0.0
+      '@pnpm/config.env-replace': 1.1.0
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
     dev: true
@@ -1943,8 +1946,8 @@ packages:
       lru-cache: 7.18.3
     dev: true
 
-  /html-tags@3.2.0:
-    resolution: {integrity: sha512-vy7ClnArOZwCnqZgvv+ddgHgJiAFXe3Ge9ML5/mBctVJoUoYPCdxVucOywjDARn6CVoh3dRSFdPHy2sX80L0Wg==}
+  /html-tags@3.3.0:
+    resolution: {integrity: sha512-mH3dWNbvfCKcAEysbpD7wvtIJ6ImPog8aFhfzqog9gCN8CJFhKjLDtjpohG3IxYRLqHMJ1PWpBvnSMkFJBQ6Jg==}
     engines: {node: '>=8'}
     dev: false
 
@@ -3221,7 +3224,7 @@ packages:
     resolution: {integrity: sha512-o/3ikDxtXaA59BmZuZrJZDJv8NMDGSj+6j6XaeBmHw8eY1i1qd9+6H+LjVvQXx3HN6aRCGa1cUdJ9RaJZUugnQ==}
     engines: {node: '>=14'}
     dependencies:
-      '@pnpm/npm-conf': 2.1.0
+      '@pnpm/npm-conf': 2.1.1
     dev: true
 
   /require-directory@2.1.1:
@@ -3564,6 +3567,19 @@ packages:
       stylelint: 15.4.0
     dev: false
 
+  /stylelint-stylistic@0.4.0(stylelint@15.4.0):
+    resolution: {integrity: sha512-8x6sClY6D+wrdTZD9kEcIcyH6Qv3nXapngd8INEI0iABukdecepZcme+RpxMOJCe4ngacBZf+JlCLjDjKadBcA==}
+    engines: {node: '>=14.x'}
+    peerDependencies:
+      stylelint: ^15.0.0
+    dependencies:
+      postcss: 8.4.21
+      postcss-media-query-parser: 0.2.3
+      postcss-value-parser: 4.2.0
+      style-search: 0.1.0
+      stylelint: 15.4.0
+    dev: false
+
   /stylelint@15.4.0:
     resolution: {integrity: sha512-TlOvpG3MbcFwHmK0q2ykhmpKo7Dq892beJit0NPdpyY9b1tFah/hGhqnAz/bRm2PDhDbJLKvjzkEYYBEz7Dxcg==}
     engines: {node: ^14.13.1 || >=16.0.0}
@@ -3585,7 +3601,7 @@ packages:
       global-modules: 2.0.0
       globby: 11.1.0
       globjoin: 0.1.4
-      html-tags: 3.2.0
+      html-tags: 3.3.0
       ignore: 5.2.4
       import-lazy: 4.0.0
       imurmurhash: 0.1.4
