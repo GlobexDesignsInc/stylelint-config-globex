@@ -11,8 +11,8 @@ dependencies:
     specifier: ^6.0.3
     version: 6.0.3(stylelint@15.6.1)
   stylelint-stylistic:
-    specifier: ^0.4.0
-    version: 0.4.0(stylelint@15.6.1)
+    specifier: ^0.4.1
+    version: 0.4.1(stylelint@15.6.1)
 
 devDependencies:
   '@commitlint/cli':
@@ -3582,13 +3582,12 @@ packages:
       stylelint: 15.6.1
     dev: false
 
-  /stylelint-stylistic@0.4.0(stylelint@15.6.1):
-    resolution: {integrity: sha512-8x6sClY6D+wrdTZD9kEcIcyH6Qv3nXapngd8INEI0iABukdecepZcme+RpxMOJCe4ngacBZf+JlCLjDjKadBcA==}
-    engines: {node: '>=14.x'}
+  /stylelint-stylistic@0.4.1(stylelint@15.6.1):
+    resolution: {integrity: sha512-hNEv0uObnAmsSdVczz7S8rzCJv+Q6scWgBrCHMg7gNrvTVvqoiMZqIl43fX1BU1RDOtxDSvZaAXp92mMWYZkrw==}
     peerDependencies:
       stylelint: ^15.0.0
     dependencies:
-      postcss: 8.4.21
+      postcss: 8.4.23
       postcss-media-query-parser: 0.2.3
       postcss-value-parser: 4.2.0
       style-search: 0.1.0
