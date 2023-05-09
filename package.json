@@ -29,7 +29,7 @@
 	"dependencies": {
 		"stylelint": "^15.6.1",
 		"stylelint-order": "^6.0.3",
-		"stylelint-stylistic": "^0.4.1"
+		"stylelint-stylistic": "^0.4.2"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "17.6.3",
