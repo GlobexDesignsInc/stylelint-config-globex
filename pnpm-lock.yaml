@@ -11,8 +11,8 @@ dependencies:
     specifier: ^6.0.3
     version: 6.0.3(stylelint@15.6.1)
   stylelint-stylistic:
-    specifier: ^0.4.1
-    version: 0.4.1(stylelint@15.6.1)
+    specifier: ^0.4.2
+    version: 0.4.2(stylelint@15.6.1)
 
 devDependencies:
   '@commitlint/cli':
@@ -3590,8 +3590,8 @@ packages:
       stylelint: 15.6.1
     dev: false
 
-  /stylelint-stylistic@0.4.1(stylelint@15.6.1):
-    resolution: {integrity: sha512-hNEv0uObnAmsSdVczz7S8rzCJv+Q6scWgBrCHMg7gNrvTVvqoiMZqIl43fX1BU1RDOtxDSvZaAXp92mMWYZkrw==}
+  /stylelint-stylistic@0.4.2(stylelint@15.6.1):
+    resolution: {integrity: sha512-WF/fLvotTklG8LZ+fO0nxhu5swVENHhSat2l5ckrmtXpij1P9ybYa56XivOg/E02CH+Ygui5pd2hQrlli3NCDQ==}
     peerDependencies:
       stylelint: ^15.0.0
     dependencies:
