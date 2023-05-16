@@ -5,14 +5,14 @@ overrides:
 
 dependencies:
   stylelint:
-    specifier: ^15.6.1
-    version: 15.6.1
+    specifier: ^15.6.2
+    version: 15.6.2
   stylelint-order:
     specifier: ^6.0.3
-    version: 6.0.3(stylelint@15.6.1)
+    version: 6.0.3(stylelint@15.6.2)
   stylelint-stylistic:
     specifier: ^0.4.2
-    version: 0.4.2(stylelint@15.6.1)
+    version: 0.4.2(stylelint@15.6.2)
 
 devDependencies:
   '@commitlint/cli':
@@ -3580,17 +3580,17 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: false
 
-  /stylelint-order@6.0.3(stylelint@15.6.1):
+  /stylelint-order@6.0.3(stylelint@15.6.2):
     resolution: {integrity: sha512-1j1lOb4EU/6w49qZeT2SQVJXm0Ht+Qnq9GMfUa3pMwoyojIWfuA+JUDmoR97Bht1RLn4ei0xtLGy87M7d29B1w==}
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0
     dependencies:
       postcss: 8.4.21
       postcss-sorting: 8.0.2(postcss@8.4.21)
-      stylelint: 15.6.1
+      stylelint: 15.6.2
     dev: false
 
-  /stylelint-stylistic@0.4.2(stylelint@15.6.1):
+  /stylelint-stylistic@0.4.2(stylelint@15.6.2):
     resolution: {integrity: sha512-WF/fLvotTklG8LZ+fO0nxhu5swVENHhSat2l5ckrmtXpij1P9ybYa56XivOg/E02CH+Ygui5pd2hQrlli3NCDQ==}
     peerDependencies:
       stylelint: ^15.0.0
@@ -3599,11 +3599,11 @@ packages:
       postcss-media-query-parser: 0.2.3
       postcss-value-parser: 4.2.0
       style-search: 0.1.0
-      stylelint: 15.6.1
+      stylelint: 15.6.2
     dev: false
 
-  /stylelint@15.6.1:
-    resolution: {integrity: sha512-d8icFBlVl93Elf3Z5ABQNOCe4nx69is3D/NZhDLAie1eyYnpxfeKe7pCfqzT5W4F8vxHCLSDfV8nKNJzogvV2Q==}
+  /stylelint@15.6.2:
+    resolution: {integrity: sha512-fjQWwcdUye4DU+0oIxNGwawIPC5DvG5kdObY5Sg4rc87untze3gC/5g/ikePqVjrAsBUZjwMN+pZsAYbDO6ArQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
