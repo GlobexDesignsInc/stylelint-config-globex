@@ -38,7 +38,7 @@
 		"eslint-config-globex": "7.7.2",
 		"lefthook": "1.4.1",
 		"prettier-package-json": "2.8.0",
-		"semantic-release": "21.0.2"
+		"semantic-release": "21.0.3"
 	},
 	"comments": {
 		"resolutions": {
