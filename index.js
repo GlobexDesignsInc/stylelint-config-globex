@@ -50,6 +50,7 @@ module.exports = {
 		'max-nesting-depth': 2,
 		'media-feature-name-no-unknown': true,
 		'media-feature-name-no-vendor-prefix': true,
+		'media-feature-name-value-no-unknown': true,
 		'named-grid-areas-no-invalid': true,
 		'no-duplicate-at-import-rules': true,
 		'no-duplicate-selectors': true,
