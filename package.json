@@ -45,5 +45,5 @@
 			"chalk": "Need to lock this to ensure semantic-release works. See https://github.com/semantic-release/semantic-release/issues/2323 for more info"
 		}
 	},
-	"packageManager": "pnpm@8.6.5"
+	"packageManager": "pnpm@8.6.6"
 }
