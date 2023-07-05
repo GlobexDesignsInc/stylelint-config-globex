@@ -51,6 +51,7 @@ module.exports = {
 		'media-feature-name-no-unknown': true,
 		'media-feature-name-no-vendor-prefix': true,
 		'media-feature-name-value-no-unknown': true,
+		'media-query-no-invalid': true,
 		'named-grid-areas-no-invalid': true,
 		'no-duplicate-at-import-rules': true,
 		'no-duplicate-selectors': true,
