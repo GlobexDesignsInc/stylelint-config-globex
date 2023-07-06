@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const binPath = path.join('node_modules', 'stylelint', 'bin', 'stylelint.js');
+const binPath = path.join('node_modules', 'stylelint', 'bin', 'stylelint.mjs');
 
 const fileExists = function (path) {
 	let exists;
