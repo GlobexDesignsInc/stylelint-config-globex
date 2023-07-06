@@ -14,7 +14,7 @@
 	},
 	"main": "index.js",
 	"bin": {
-		"stylelint-globex": "./bin/stylelint-globex.js"
+		"stylelint-globex": "./bin/stylelint-globex.mjs"
 	},
 	"scripts": {
 		"eslint": "eslint-globex .",

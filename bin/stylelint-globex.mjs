@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
 
 const binPath = path.join('node_modules', 'stylelint', 'bin', 'stylelint.mjs');
 
@@ -27,7 +28,8 @@ const findBin = function (search) {
 	return searchPath;
 };
 
+const __dirname = fileURLToPath(new URL('.', import.meta.url));
 const bin = findBin(__dirname);
 if (!bin) throw new Error(`Unable to find stylelint executable. Did you run 'npm install'?`);
 
-module.exports = require(bin);
+export default import(bin);
