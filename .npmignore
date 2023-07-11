@@ -1,5 +1,7 @@
+.commitlintrc.js
 .github
 .eslintrc
+CHANGELOG.md
 CONTRIBUTING.md
 lefthook.yml
 logo.png
