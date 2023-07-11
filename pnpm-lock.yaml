@@ -9,7 +9,7 @@ overrides:
 
 dependencies:
   stylelint:
-    specifier: '>=15.10.0'
+    specifier: '>=15.10.1'
     version: 15.10.1
   stylelint-order:
     specifier: ^6.0.3
