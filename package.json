@@ -27,7 +27,7 @@
 		"chalk": "4.1.2"
 	},
 	"dependencies": {
-		"stylelint": ">=15.11.0",
+		"stylelint": "15.11.0",
 		"stylelint-order": "^6.0.3",
 		"stylelint-stylistic": "^0.4.3"
 	},
@@ -41,6 +41,9 @@
 		"semantic-release": "22.0.5"
 	},
 	"comments": {
+		"dependencies": {
+			"stylelint": "Not using ^ versions here to ensure the correct version is always installed as some projects may have a different version installed via some other third-party dependency."
+		},
 		"resolutions": {
 			"chalk": "Need to lock this to ensure semantic-release works. See https://github.com/semantic-release/semantic-release/issues/2323 for more info"
 		}
