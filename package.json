@@ -28,7 +28,7 @@
 	},
 	"dependencies": {
 		"stylelint": "16.0.1",
-		"stylelint-order": "^6.0.3",
+		"stylelint-order": "^6.0.4",
 		"stylelint-stylistic": "^0.4.3"
 	},
 	"devDependencies": {
