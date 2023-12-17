@@ -1,0 +1,30 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.4.0/schema.json",
+	"formatter": {
+		"enabled": true
+	},
+	"javascript": {
+		"formatter": {
+			"jsxQuoteStyle": "single",
+			"quoteStyle": "single"
+		}
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"style": {
+				"useCollapsedElseIf": "error",
+				"useShorthandAssign": "error"
+			},
+			"suspicious": {
+				"noApproximativeNumericConstant": "error",
+				"noConsoleLog": "error",
+				"noMisrefactoredShorthandAssign": "error"
+			}
+		}
+	},
+	"organizeImports": {
+		"enabled": true
+	}
+}

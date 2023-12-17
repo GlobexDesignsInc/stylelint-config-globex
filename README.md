@@ -8,7 +8,7 @@
 
 <a href="https://www.npmjs.com/package/stylelint-config-globex"><img alt="NPM Status" src="https://img.shields.io/npm/v/stylelint-config-globex.svg?style=flat"></a>
 <a href="https://www.npmtrends.com/stylelint-config-globex"><img alt="NPM Download Stats" src="https://img.shields.io/npm/dm/stylelint-config-globex.svg?style=flat-square" /></a>
-<a href="https://github.com/GlobexDesignsInc/eslint-config-globex/blob/master/LICENSE"><img alt="NPM Download Stats" src="https://img.shields.io/npm/l/stylelint-config-globex.svg?style=flat-square" /></a>
+<a href="https://github.com/GlobexDesignsInc/stylelint-config-globex/blob/master/LICENSE"><img alt="NPM Download Stats" src="https://img.shields.io/npm/l/stylelint-config-globex.svg?style=flat-square" /></a>
 
 </div><hr />
 

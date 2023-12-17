@@ -1,9 +1,0 @@
-{
-  "extends": [
-    "eslint-config-globex",
-    "./node_modules/@eslint-config-globex/node"
-  ],
-  "rules": {
-    "import/no-commonjs": "off"
-  }
-}

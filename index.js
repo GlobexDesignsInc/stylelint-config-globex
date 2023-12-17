@@ -1,16 +1,16 @@
 module.exports = {
-	plugins: [
-		'stylelint-codeguide',
-		'stylelint-order',
-	],
+	plugins: ['stylelint-codeguide', 'stylelint-order'],
 	rules: {
 		// ERRORS
 
 		'alpha-value-notation': 'number',
 		'annotation-no-unknown': true,
-		'at-rule-empty-line-before': ['always', {
-			ignore: ['after-comment', 'inside-block'],
-		}],
+		'at-rule-empty-line-before': [
+			'always',
+			{
+				ignore: ['after-comment', 'inside-block'],
+			},
+		],
 		'at-rule-no-unknown': true,
 		'at-rule-no-vendor-prefix': true,
 		'block-no-empty': true,
@@ -137,15 +137,21 @@ module.exports = {
 		'property-disallowed-list': ['float'],
 		'property-no-unknown': true,
 		'property-no-vendor-prefix': true,
-		'rule-empty-line-before': ['always-multi-line', {
-			except: ['first-nested'],
-			ignore: ['after-comment'],
-		}],
+		'rule-empty-line-before': [
+			'always-multi-line',
+			{
+				except: ['first-nested'],
+				ignore: ['after-comment'],
+			},
+		],
 		'selector-anb-no-unmatchable': true,
 		'selector-attribute-quotes': 'always',
-		'selector-class-pattern': ['^[a-z]', {
-			resolveNestedSelectors: true,
-		}],
+		'selector-class-pattern': [
+			'^[a-z]',
+			{
+				resolveNestedSelectors: true,
+			},
+		],
 		'selector-max-attribute': 0,
 		'selector-max-combinators': 0,
 		'selector-max-id': 0,
@@ -156,7 +162,10 @@ module.exports = {
 		'selector-no-qualifying-type': true,
 		'selector-no-vendor-prefix': true,
 		'selector-not-notation': 'simple',
-		'selector-pseudo-class-no-unknown': [true, {ignorePseudoClasses: ['global']}],
+		'selector-pseudo-class-no-unknown': [
+			true,
+			{ ignorePseudoClasses: ['global'] },
+		],
 		'selector-pseudo-element-colon-notation': 'double',
 		'selector-pseudo-element-no-unknown': true,
 		'selector-type-case': 'lower',
@@ -166,18 +175,27 @@ module.exports = {
 		'time-min-milliseconds': 100,
 		'unit-disallowed-list': ['em'],
 		'unit-no-unknown': true,
-		'value-keyword-case': ['lower', {
-			camelCaseSvgKeywords: true,
-			ignoreKeywords: [
-				'Arial', 'Consolas', 'Courier', 'Helvetica', 'Inconsolata', 'Menlo', 'Roboto',
-			],
-		}],
+		'value-keyword-case': [
+			'lower',
+			{
+				camelCaseSvgKeywords: true,
+				ignoreKeywords: [
+					'Arial',
+					'Consolas',
+					'Courier',
+					'Helvetica',
+					'Inconsolata',
+					'Menlo',
+					'Roboto',
+				],
+			},
+		],
 		'value-no-vendor-prefix': true,
 
 		// WARNINGS
 
-		'comment-word-disallowed-list': [['/^TODO/'], {severity: 'warning'}],
-		'selector-max-compound-selectors': [3, {severity: 'warning'}],
+		'comment-word-disallowed-list': [['/^TODO/'], { severity: 'warning' }],
+		'selector-max-compound-selectors': [3, { severity: 'warning' }],
 
 		// DISABLED
 

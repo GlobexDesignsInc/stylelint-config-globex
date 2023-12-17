@@ -17,8 +17,8 @@
 		"stylelint-globex": "./bin/stylelint-globex.mjs"
 	},
 	"scripts": {
-		"eslint": "eslint-globex .",
-		"lint": "pnpm eslint && pnpm packagelint",
+		"biome:check": "biome check --apply-unsafe .",
+		"lint": "pnpm biome:check && pnpm packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
 		"semantic-release": "semantic-release",
 		"test": "pnpm lint"
@@ -32,10 +32,9 @@
 		"stylelint-order": "6.0.4"
 	},
 	"devDependencies": {
+		"@biomejs/biome": "1.4.1",
 		"@commitlint/cli": "18.4.3",
 		"@commitlint/config-conventional": "18.4.3",
-		"@eslint-config-globex/node": "7.6.0",
-		"eslint-config-globex": "7.7.2",
 		"lefthook": "1.5.5",
 		"prettier-package-json": "2.8.0",
 		"semantic-release": "22.0.12"

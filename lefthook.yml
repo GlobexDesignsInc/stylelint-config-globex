@@ -18,9 +18,9 @@ post-rebase:
 pre-commit:
   parallel: true
   commands:
-    eslint:
+    biome:
       glob: "*.{js,jsx,ts,tsx}"
-      run: pnpm eslint-globex --fix {staged_files}
+      run: pnpm biome check --apply-unsafe {staged_files}
       stage_fixed: true
     prettier-package-json:
       glob: "package.json"

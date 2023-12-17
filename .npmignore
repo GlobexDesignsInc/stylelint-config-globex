@@ -1,6 +1,6 @@
 .commitlintrc.js
 .github
-.eslintrc
+biome.json
 CHANGELOG.md
 CONTRIBUTING.md
 lefthook.yml
