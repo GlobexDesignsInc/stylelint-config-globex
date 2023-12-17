@@ -28,7 +28,7 @@
 	},
 	"dependencies": {
 		"stylelint": "16.0.2",
-		"stylelint-codeguide": "1.0.2",
+		"stylelint-codeguide": "2.0.0",
 		"stylelint-order": "6.0.4"
 	},
 	"devDependencies": {

@@ -12,8 +12,8 @@ dependencies:
     specifier: 16.0.2
     version: 16.0.2(typescript@5.3.3)
   stylelint-codeguide:
-    specifier: 1.0.2
-    version: 1.0.2(stylelint@16.0.2)
+    specifier: 2.0.0
+    version: 2.0.0(stylelint@16.0.2)
   stylelint-order:
     specifier: 6.0.4
     version: 6.0.4(stylelint@16.0.2)
@@ -2781,9 +2781,10 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: false
 
-  /stylelint-codeguide@1.0.2(stylelint@16.0.2):
-    resolution: {integrity: sha512-5JmVR4hgo9JkzK0KsLZd/UVr0kHhgwYVdF1bE09/KvLoAWl6h1SX24SIQ/o0rChV+TNsHCDCqOikVjNcVWbwCQ==}
+  /stylelint-codeguide@2.0.0(stylelint@16.0.2):
+    resolution: {integrity: sha512-FN+8LMOIaNfQamr8WDRfYTRVbSZP7dgbiki0gIX0ycl4NXzNKjYTl48cOmangBBtd1+3armmFBJfSryyKVGdzA==}
     engines: {node: ^18.12 || >=20.9}
+    deprecated: This package has been deprecated in favor of @stylistic/stylelint-plugin
     peerDependencies:
       stylelint: ^16.0.2
     dependencies:
