@@ -113,6 +113,7 @@ module.exports = {
 		'keyframe-block-no-duplicate-selectors': true,
 		'keyframe-declaration-no-important': true,
 		'length-zero-no-unit': true,
+		'lightness-notation': 'percentage',
 		'max-nesting-depth': 2,
 		'media-feature-name-no-unknown': true,
 		'media-feature-name-no-vendor-prefix': true,
