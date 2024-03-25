@@ -32,7 +32,7 @@
 		"stylelint-order": "6.0.4"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.6.2",
+		"@biomejs/biome": "1.6.3",
 		"@commitlint/cli": "19.2.1",
 		"@commitlint/config-conventional": "19.1.0",
 		"lefthook": "1.6.7",
