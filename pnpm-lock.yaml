@@ -10,13 +10,13 @@ overrides:
 dependencies:
   '@stylistic/stylelint-plugin':
     specifier: 2.1.0
-    version: 2.1.0(stylelint@16.3.0)
+    version: 2.1.0(stylelint@16.3.1)
   stylelint:
-    specifier: 16.3.0
-    version: 16.3.0(typescript@5.3.3)
+    specifier: 16.3.1
+    version: 16.3.1(typescript@5.3.3)
   stylelint-order:
     specifier: 6.0.4
-    version: 6.0.4(stylelint@16.3.0)
+    version: 6.0.4(stylelint@16.3.1)
 
 devDependencies:
   '@biomejs/biome':
@@ -636,7 +636,7 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /@stylistic/stylelint-plugin@2.1.0(stylelint@16.3.0):
+  /@stylistic/stylelint-plugin@2.1.0(stylelint@16.3.1):
     resolution: {integrity: sha512-mUZEW9uImHSbXeyzbFmHb8WPBv56UTaEnWL/3dGdAiJ54C+8GTfDwDVdI6gbqT9wV7zynkPu7tCXc5746H9mZQ==}
     engines: {node: ^18.12 || >=20.9}
     peerDependencies:
@@ -649,7 +649,7 @@ packages:
       postcss-selector-parser: 6.0.15
       postcss-value-parser: 4.2.0
       style-search: 0.1.0
-      stylelint: 16.3.0(typescript@5.3.3)
+      stylelint: 16.3.1(typescript@5.3.3)
     dev: false
 
   /@types/conventional-commits-parser@5.0.0:
@@ -1010,7 +1010,7 @@ packages:
     engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
     dependencies:
       mdn-data: 2.0.30
-      source-map-js: 1.0.2
+      source-map-js: 1.2.0
     dev: false
 
   /cssesc@3.0.0:
@@ -2669,18 +2669,18 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: false
 
-  /stylelint-order@6.0.4(stylelint@16.3.0):
+  /stylelint-order@6.0.4(stylelint@16.3.1):
     resolution: {integrity: sha512-0UuKo4+s1hgQ/uAxlYU4h0o0HS4NiQDud0NAUNI0aa8FJdmYHA5ZZTFHiV5FpmE3071e9pZx5j0QpVJW5zOCUA==}
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0 || ^16.0.1
     dependencies:
       postcss: 8.4.32
       postcss-sorting: 8.0.2(postcss@8.4.32)
-      stylelint: 16.3.0(typescript@5.3.3)
+      stylelint: 16.3.1(typescript@5.3.3)
     dev: false
 
-  /stylelint@16.3.0(typescript@5.3.3):
-    resolution: {integrity: sha512-hqC6xNTbQ5HRGQXfIW4HwXcx09raIFz4W4XFbraeqWqYRVVY/ibYvI0dsu0ORMQY8re2bpDdCAeIa2cm+QJ4Sw==}
+  /stylelint@16.3.1(typescript@5.3.3):
+    resolution: {integrity: sha512-/JOwQnBvxEKOT2RtNgGpBVXnCSMBgKOL2k7w0K52htwCyJls4+cHvc4YZgXlVoAZS9QJd2DgYAiRnja96pTgxw==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     dependencies:
