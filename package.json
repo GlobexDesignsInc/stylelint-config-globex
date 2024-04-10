@@ -35,7 +35,7 @@
 		"@biomejs/biome": "1.6.4",
 		"@commitlint/cli": "19.2.1",
 		"@commitlint/config-conventional": "19.1.0",
-		"lefthook": "1.6.9",
+		"lefthook": "1.6.10",
 		"prettier-package-json": "2.8.0",
 		"semantic-release": "23.0.8"
 	},
