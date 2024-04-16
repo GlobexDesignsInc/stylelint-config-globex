@@ -13,7 +13,11 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true,
+			"performance": {
+				"noBarrelFile": "warn"
+			},
 			"style": {
+				"noNamespaceImport": "error",
 				"useCollapsedElseIf": "error",
 				"useShorthandAssign": "error"
 			},
