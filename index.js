@@ -126,6 +126,7 @@ module.exports = {
 		'no-invalid-position-at-import-rule': true,
 		'no-irregular-whitespace': true,
 		'no-unknown-animations': true,
+		"no-unknown-custom-media": true,
 		'number-max-precision': 3,
 		'order/order': [
 			'at-rules',
