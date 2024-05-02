@@ -13,13 +13,13 @@ importers:
     dependencies:
       '@stylistic/stylelint-plugin':
         specifier: 2.1.2
-        version: 2.1.2(stylelint@16.4.0(typescript@5.3.3))
+        version: 2.1.2(stylelint@16.5.0(typescript@5.3.3))
       stylelint:
-        specifier: 16.4.0
-        version: 16.4.0(typescript@5.3.3)
+        specifier: 16.5.0
+        version: 16.5.0(typescript@5.3.3)
       stylelint-order:
         specifier: 6.0.4
-        version: 6.0.4(stylelint@16.4.0(typescript@5.3.3))
+        version: 6.0.4(stylelint@16.5.0(typescript@5.3.3))
     devDependencies:
       '@biomejs/biome':
         specifier: 1.7.2
@@ -1591,8 +1591,8 @@ packages:
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0 || ^16.0.1
 
-  stylelint@16.4.0:
-    resolution: {integrity: sha512-uSx7VMuXwLuYcNSIg+0/fFNv0WinsfLAqsVVy7h7p80clKOHiGE8pfY6UjqwylTHiJrRIahTl6a8FPxGezhWoA==}
+  stylelint@16.5.0:
+    resolution: {integrity: sha512-IlCBtVrG+qTy3v+tZTk50W8BIomjY/RUuzdrDqdnlCYwVuzXtPbiGfxYqtyYAyOMcb+195zRsuHn6tgfPmFfbw==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -2123,7 +2123,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@1.0.0': {}
 
-  '@stylistic/stylelint-plugin@2.1.2(stylelint@16.4.0(typescript@5.3.3))':
+  '@stylistic/stylelint-plugin@2.1.2(stylelint@16.5.0(typescript@5.3.3))':
     dependencies:
       '@csstools/css-parser-algorithms': 2.6.1(@csstools/css-tokenizer@2.2.4)
       '@csstools/css-tokenizer': 2.2.4
@@ -2132,7 +2132,7 @@ snapshots:
       postcss-selector-parser: 6.0.16
       postcss-value-parser: 4.2.0
       style-search: 0.1.0
-      stylelint: 16.4.0(typescript@5.3.3)
+      stylelint: 16.5.0(typescript@5.3.3)
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
@@ -3268,13 +3268,13 @@ snapshots:
 
   style-search@0.1.0: {}
 
-  stylelint-order@6.0.4(stylelint@16.4.0(typescript@5.3.3)):
+  stylelint-order@6.0.4(stylelint@16.5.0(typescript@5.3.3)):
     dependencies:
       postcss: 8.4.32
       postcss-sorting: 8.0.2(postcss@8.4.32)
-      stylelint: 16.4.0(typescript@5.3.3)
+      stylelint: 16.5.0(typescript@5.3.3)
 
-  stylelint@16.4.0(typescript@5.3.3):
+  stylelint@16.5.0(typescript@5.3.3):
     dependencies:
       '@csstools/css-parser-algorithms': 2.6.1(@csstools/css-tokenizer@2.2.4)
       '@csstools/css-tokenizer': 2.2.4
