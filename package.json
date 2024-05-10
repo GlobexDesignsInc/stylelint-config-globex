@@ -37,7 +37,7 @@
 		"@commitlint/config-conventional": "19.2.2",
 		"lefthook": "1.6.10",
 		"prettier-package-json": "2.8.0",
-		"semantic-release": "23.0.8"
+		"semantic-release": "23.1.1"
 	},
 	"comments": {
 		"dependencies": {
