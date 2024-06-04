@@ -1,5 +1,14 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"css": {
+		"linter": {
+			"enabled": false
+		},
+		"formatter": {
+			"enabled": false,
+			"quoteStyle": "single"
+		}
+	},
 	"formatter": {
 		"enabled": true
 	},

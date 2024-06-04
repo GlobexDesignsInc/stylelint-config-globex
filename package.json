@@ -17,7 +17,7 @@
 		"stylelint-globex": "./bin/stylelint-globex.mjs"
 	},
 	"scripts": {
-		"biome:check": "biome check --apply-unsafe .",
+		"biome:check": "biome check --write",
 		"lint": "pnpm biome:check && pnpm packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
 		"semantic-release": "semantic-release",
@@ -32,7 +32,7 @@
 		"stylelint-order": "6.0.4"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.7.3",
+		"@biomejs/biome": "1.8.0",
 		"@commitlint/cli": "19.3.0",
 		"@commitlint/config-conventional": "19.2.2",
 		"lefthook": "1.6.15",
