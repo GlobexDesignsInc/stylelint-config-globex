@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@stylistic/stylelint-plugin':
-        specifier: 2.1.2
-        version: 2.1.2(stylelint@16.8.0(typescript@5.3.3))
+        specifier: 2.1.3
+        version: 2.1.3(stylelint@16.8.0(typescript@5.3.3))
       stylelint:
         specifier: 16.8.0
         version: 16.8.0(typescript@5.3.3)
@@ -180,21 +180,11 @@ packages:
     resolution: {integrity: sha512-tpyc+7i6bPG9mvaBbtKUeghfyZSDgWquIDfMgqYtTbmZ9Y9VzEm2je9EYcQ0aoz5o7NvGS+rcDec93yO08MHYA==}
     engines: {node: '>=v18'}
 
-  '@csstools/css-parser-algorithms@2.6.1':
-    resolution: {integrity: sha512-ubEkAaTfVZa+WwGhs5jbo5Xfqpeaybr/RvWzvFxRs4jfq16wH8l8Ty/QEEpINxll4xhuGfdMbipRyz5QZh9+FA==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      '@csstools/css-tokenizer': ^2.2.4
-
   '@csstools/css-parser-algorithms@2.7.1':
     resolution: {integrity: sha512-2SJS42gxmACHgikc1WGesXLIT8d/q2l0UFM7TaEeIzdFCE/FPMtTiizcPGGJtlPo2xuQzY09OhrLTzRxqJqwGw==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       '@csstools/css-tokenizer': ^2.4.1
-
-  '@csstools/css-tokenizer@2.2.4':
-    resolution: {integrity: sha512-PuWRAewQLbDhGeTvFuq2oClaSCKPIBmHyIobCV39JHRYN0byDcUWJl5baPeNUcqrjtdMNqFooE0FGl31I3JOqw==}
-    engines: {node: ^14 || ^16 || >=18}
 
   '@csstools/css-tokenizer@2.4.1':
     resolution: {integrity: sha512-eQ9DIktFJBhGjioABJRtUucoWR2mwllurfnM8LuNGAqX3ViZXaUchqk+1s7jjtkFiT9ySdACsFEA3etErkALUg==}
@@ -206,13 +196,6 @@ packages:
     peerDependencies:
       '@csstools/css-parser-algorithms': ^2.7.1
       '@csstools/css-tokenizer': ^2.4.1
-
-  '@csstools/media-query-list-parser@2.1.9':
-    resolution: {integrity: sha512-qqGuFfbn4rUmyOB0u8CVISIp5FfJ5GAR3mBrZ9/TKndHakdnm6pY0L/fbLcpPnrzwCyyTEZl1nUcXAYHEWneTA==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      '@csstools/css-parser-algorithms': ^2.6.1
-      '@csstools/css-tokenizer': ^2.2.4
 
   '@csstools/selector-specificity@3.1.1':
     resolution: {integrity: sha512-a7cxGcJ2wIlMFLlh8z2ONm+715QkPHiyJcxwQlKOz/03GPw1COpfhcmC9wm4xlZfp//jWHNNMwzjtqHXVWU9KA==}
@@ -338,8 +321,8 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@stylistic/stylelint-plugin@2.1.2':
-    resolution: {integrity: sha512-JsSqu0Y3vsX+PBl+DwULxC0cIv9C1yIcq1MXkx7pBOGtTqU26a75I8MPYMiEYvrsXgsKLi65xVgy1iLVSZquJA==}
+  '@stylistic/stylelint-plugin@2.1.3':
+    resolution: {integrity: sha512-/KUcqX36AbbUk7KvNuM0dWv2XSlPa1M12CPcC//eA4MNEFsZFl+2Kf8UZCLjlIWIrDNitd591vaVkXfOwUtsFQ==}
     engines: {node: ^18.12 || >=20.9}
     peerDependencies:
       stylelint: ^16.0.2
@@ -1402,10 +1385,6 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
-  postcss-selector-parser@6.0.16:
-    resolution: {integrity: sha512-A0RVJrX+IUkVZbW3ClroRWurercFhieevHB38sr2+l9eUClMqome3LmEmnhlNy+5Mr2EYN6B2Kaw9wYdd+VHiw==}
-    engines: {node: '>=4'}
-
   postcss-selector-parser@6.1.1:
     resolution: {integrity: sha512-b4dlw/9V8A71rLIDsSwVmak9z2DuBUB7CA1/wSdelNEzqsjoSPeADTWNO09lpH49Diy3/JIZ2bSPB1dI3LJCHg==}
     engines: {node: '>=4'}
@@ -1976,15 +1955,9 @@ snapshots:
       '@types/conventional-commits-parser': 5.0.0
       chalk: 4.1.2
 
-  '@csstools/css-parser-algorithms@2.6.1(@csstools/css-tokenizer@2.2.4)':
-    dependencies:
-      '@csstools/css-tokenizer': 2.2.4
-
   '@csstools/css-parser-algorithms@2.7.1(@csstools/css-tokenizer@2.4.1)':
     dependencies:
       '@csstools/css-tokenizer': 2.4.1
-
-  '@csstools/css-tokenizer@2.2.4': {}
 
   '@csstools/css-tokenizer@2.4.1': {}
 
@@ -1992,11 +1965,6 @@ snapshots:
     dependencies:
       '@csstools/css-parser-algorithms': 2.7.1(@csstools/css-tokenizer@2.4.1)
       '@csstools/css-tokenizer': 2.4.1
-
-  '@csstools/media-query-list-parser@2.1.9(@csstools/css-parser-algorithms@2.6.1(@csstools/css-tokenizer@2.2.4))(@csstools/css-tokenizer@2.2.4)':
-    dependencies:
-      '@csstools/css-parser-algorithms': 2.6.1(@csstools/css-tokenizer@2.2.4)
-      '@csstools/css-tokenizer': 2.2.4
 
   '@csstools/selector-specificity@3.1.1(postcss-selector-parser@6.1.1)':
     dependencies:
@@ -2165,13 +2133,13 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@stylistic/stylelint-plugin@2.1.2(stylelint@16.8.0(typescript@5.3.3))':
+  '@stylistic/stylelint-plugin@2.1.3(stylelint@16.8.0(typescript@5.3.3))':
     dependencies:
-      '@csstools/css-parser-algorithms': 2.6.1(@csstools/css-tokenizer@2.2.4)
-      '@csstools/css-tokenizer': 2.2.4
-      '@csstools/media-query-list-parser': 2.1.9(@csstools/css-parser-algorithms@2.6.1(@csstools/css-tokenizer@2.2.4))(@csstools/css-tokenizer@2.2.4)
+      '@csstools/css-parser-algorithms': 2.7.1(@csstools/css-tokenizer@2.4.1)
+      '@csstools/css-tokenizer': 2.4.1
+      '@csstools/media-query-list-parser': 2.1.13(@csstools/css-parser-algorithms@2.7.1(@csstools/css-tokenizer@2.4.1))(@csstools/css-tokenizer@2.4.1)
       is-plain-object: 5.0.0
-      postcss-selector-parser: 6.0.16
+      postcss-selector-parser: 6.1.1
       postcss-value-parser: 4.2.0
       style-search: 0.1.0
       stylelint: 16.8.0(typescript@5.3.3)
@@ -3069,11 +3037,6 @@ snapshots:
   postcss-safe-parser@7.0.0(postcss@8.4.40):
     dependencies:
       postcss: 8.4.40
-
-  postcss-selector-parser@6.0.16:
-    dependencies:
-      cssesc: 3.0.0
-      util-deprecate: 1.0.2
 
   postcss-selector-parser@6.1.1:
     dependencies:
