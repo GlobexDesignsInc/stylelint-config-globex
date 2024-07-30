@@ -13,13 +13,13 @@ importers:
     dependencies:
       '@stylistic/stylelint-plugin':
         specifier: 3.0.0
-        version: 3.0.0(stylelint@16.8.0(typescript@5.3.3))
+        version: 3.0.0(stylelint@16.8.1(typescript@5.3.3))
       stylelint:
-        specifier: 16.8.0
-        version: 16.8.0(typescript@5.3.3)
+        specifier: 16.8.1
+        version: 16.8.1(typescript@5.3.3)
       stylelint-order:
         specifier: 6.0.4
-        version: 6.0.4(stylelint@16.8.0(typescript@5.3.3))
+        version: 6.0.4(stylelint@16.8.1(typescript@5.3.3))
     devDependencies:
       '@biomejs/biome':
         specifier: 1.8.3
@@ -560,15 +560,6 @@ packages:
 
   debug@4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-
-  debug@4.3.5:
-    resolution: {integrity: sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -1608,8 +1599,8 @@ packages:
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0 || ^16.0.1
 
-  stylelint@16.8.0:
-    resolution: {integrity: sha512-Jjr40w3PXDiJVW6c9swLM0a1e0DgDm/XkFozc4XgAcREFas+/nchzmDmeVxazbzXgpDrwm+cW6W6iGtZqYUh+g==}
+  stylelint@16.8.1:
+    resolution: {integrity: sha512-O8aDyfdODSDNz/B3gW2HQ+8kv8pfhSu7ZR7xskQ93+vI6FhKKGUJMQ03Ydu+w3OvXXE0/u4hWU4hCPNOyld+OA==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -2133,7 +2124,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@stylistic/stylelint-plugin@3.0.0(stylelint@16.8.0(typescript@5.3.3))':
+  '@stylistic/stylelint-plugin@3.0.0(stylelint@16.8.1(typescript@5.3.3))':
     dependencies:
       '@csstools/css-parser-algorithms': 2.7.1(@csstools/css-tokenizer@2.4.1)
       '@csstools/css-tokenizer': 2.4.1
@@ -2142,7 +2133,7 @@ snapshots:
       postcss-selector-parser: 6.1.1
       postcss-value-parser: 4.2.0
       style-search: 0.1.0
-      stylelint: 16.8.0(typescript@5.3.3)
+      stylelint: 16.8.1(typescript@5.3.3)
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
@@ -2167,7 +2158,7 @@ snapshots:
 
   agent-base@7.1.0:
     dependencies:
-      debug: 4.3.5
+      debug: 4.3.6
     transitivePeerDependencies:
       - supports-color
 
@@ -2371,10 +2362,6 @@ snapshots:
   dargs@8.1.0: {}
 
   debug@4.3.4:
-    dependencies:
-      ms: 2.1.2
-
-  debug@4.3.5:
     dependencies:
       ms: 2.1.2
 
@@ -2630,14 +2617,14 @@ snapshots:
   http-proxy-agent@7.0.0:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.5
+      debug: 4.3.6
     transitivePeerDependencies:
       - supports-color
 
   https-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.5
+      debug: 4.3.6
     transitivePeerDependencies:
       - supports-color
 
@@ -3280,13 +3267,13 @@ snapshots:
 
   style-search@0.1.0: {}
 
-  stylelint-order@6.0.4(stylelint@16.8.0(typescript@5.3.3)):
+  stylelint-order@6.0.4(stylelint@16.8.1(typescript@5.3.3)):
     dependencies:
       postcss: 8.4.32
       postcss-sorting: 8.0.2(postcss@8.4.32)
-      stylelint: 16.8.0(typescript@5.3.3)
+      stylelint: 16.8.1(typescript@5.3.3)
 
-  stylelint@16.8.0(typescript@5.3.3):
+  stylelint@16.8.1(typescript@5.3.3):
     dependencies:
       '@csstools/css-parser-algorithms': 2.7.1(@csstools/css-tokenizer@2.4.1)
       '@csstools/css-tokenizer': 2.4.1
