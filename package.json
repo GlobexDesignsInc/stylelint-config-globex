@@ -27,7 +27,7 @@
 		"chalk": "4.1.2"
 	},
 	"dependencies": {
-		"@stylistic/stylelint-plugin": "3.0.0",
+		"@stylistic/stylelint-plugin": "3.0.1",
 		"stylelint": "16.8.2",
 		"stylelint-order": "6.0.4"
 	},
