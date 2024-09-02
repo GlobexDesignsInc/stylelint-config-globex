@@ -8,6 +8,7 @@ module.exports = {
 		'at-rule-empty-line-before': [
 			'always',
 			{
+				except: ['after-same-name'],
 				ignore: ['after-comment', 'inside-block'],
 			},
 		],
@@ -102,7 +103,6 @@ module.exports = {
 		'declaration-block-single-line-max-declarations': 1,
 		'declaration-empty-line-before': 'never',
 		'declaration-no-important': true,
-		'declaration-property-value-no-unknown': true,
 		'font-family-name-quotes': 'always-where-recommended',
 		'font-family-no-duplicate-names': true,
 		'font-family-no-missing-generic-family-keyword': true,
@@ -230,6 +230,9 @@ module.exports = {
 		'declaration-property-unit-disallowed-list': null,
 		'declaration-property-value-allowed-list': null,
 		'declaration-property-value-disallowed-list': null,
+		// Would be nice to use this, but it doesn't work well with CSS Modules
+		// @value declarations
+		'declaration-property-value-no-unknown': null,
 		'function-allowed-list': null,
 		'function-url-no-scheme-relative': null,
 		'function-url-scheme-allowed-list': null,
