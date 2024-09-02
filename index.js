@@ -122,7 +122,6 @@ module.exports = {
 		'max-nesting-depth': 2,
 		'media-feature-name-no-unknown': true,
 		'media-feature-name-no-vendor-prefix': true,
-		'media-feature-name-value-no-unknown': true,
 		'media-query-no-invalid': true,
 		'named-grid-areas-no-invalid': true,
 		'no-duplicate-at-import-rules': true,
@@ -243,6 +242,9 @@ module.exports = {
 		'media-feature-name-disallowed-list': null,
 		'media-feature-name-unit-allowed-list': null,
 		'media-feature-name-value-allowed-list': null,
+		// Would be nice to use this, but it doesn't work well with CSS Modules
+		// @value declarations
+		'media-feature-name-value-no-unknown': null,
 		'media-feature-range-notation': null,
 		'no-descending-specificity': null,
 		'no-invalid-double-slash-comments': null,
