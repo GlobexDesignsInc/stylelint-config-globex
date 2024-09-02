@@ -11,7 +11,12 @@ module.exports = {
 				ignore: ['after-comment', 'inside-block'],
 			},
 		],
-		'at-rule-no-unknown': true,
+		'at-rule-no-unknown': [
+			true,
+			{
+				ignoreAtRules: ['value'],
+			},
+		],
 		'at-rule-no-vendor-prefix': true,
 		'block-no-empty': true,
 		'@stylistic/at-rule-name-case': 'lower',
