@@ -10,6 +10,7 @@ module.exports = {
 			{
 				except: ['after-same-name'],
 				ignore: ['after-comment', 'inside-block'],
+				ignoreAtRules: ['keyframes', 'media'],
 			},
 		],
 		'at-rule-no-unknown': [
