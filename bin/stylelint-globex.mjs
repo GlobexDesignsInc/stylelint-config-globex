@@ -11,7 +11,7 @@ const fileExists = (path) => {
 	try {
 		fs.accessSync(path, fs.F_OK);
 		exists = true;
-	} catch (e) {
+	} catch (_e) {
 		exists = false;
 	}
 	return exists;

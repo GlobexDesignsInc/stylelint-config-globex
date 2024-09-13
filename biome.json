@@ -1,12 +1,11 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"css": {
-		"linter": {
-			"enabled": false
-		},
 		"formatter": {
-			"enabled": false,
 			"quoteStyle": "single"
+		},
+		"parser": {
+			"cssModules": true
 		}
 	},
 	"formatter": {
@@ -22,18 +21,67 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true,
+			"a11y": {
+				"noAutofocus": "off",
+				"useSemanticElements": "off"
+			},
+			"complexity": {
+				"useDateNow": "error",
+				"noUselessStringConcat": "error",
+				"noUselessUndefinedInitialization": "error",
+				"noVoid": "error"
+			},
+			"correctness": {
+				"noConstantMathMinMaxClamp": "error",
+				"noUndeclaredDependencies": "off",
+				"noUnusedFunctionParameters": "error",
+				"noUnusedImports": "error",
+				"noUnusedPrivateClassMembers": "error",
+				"noUnusedVariables": "error",
+				"useHookAtTopLevel": "error"
+			},
+			"nursery": {
+				"noDuplicateCustomProperties": "error",
+				"noEnum": "error",
+				"noExportedImports": "error",
+				"noIrregularWhitespace": "error",
+				"noUnknownPseudoElement": "error",
+				"noUselessEscapeInRegex": "error",
+				"useDeprecatedReason": "error",
+				"useSortedClasses": "error"
+			},
 			"performance": {
-				"noBarrelFile": "warn"
+				"noBarrelFile": "warn",
+				"useTopLevelRegex": "error"
 			},
 			"style": {
+				"noDoneCallback": "error",
 				"noNamespaceImport": "error",
+				"noYodaExpression": "error",
 				"useCollapsedElseIf": "error",
-				"useShorthandAssign": "error"
+				"useConsistentArrayType": {
+					"level": "error",
+					"options": {
+						"syntax": "generic"
+					}
+				},
+				"useConsistentBuiltinInstantiation": "error",
+				"useShorthandAssign": "error",
+				"useThrowNewError": "error",
+				"useThrowOnlyError": "error"
 			},
 			"suspicious": {
-				"noApproximativeNumericConstant": "error",
-				"noConsoleLog": "error",
-				"noMisrefactoredShorthandAssign": "error"
+				"useAwait": "error",
+				"noConsole": {
+					"level": "error",
+					"options": {
+						"allow": ["error", "warn", "info", "debug"]
+					}
+				},
+				"useErrorMessage": "error",
+				"noEmptyBlockStatements": "error",
+				"noMisplacedAssertion": "error",
+				"useNumberToFixedDigitsArgument": "error"
 			}
 		}
 	},
